@@ -19,6 +19,8 @@ app.set('port', process.env.PORT || 8080)
 // Define middleware for parsing JSON and urlencoded data
 app.use(express.json())
 
+console.log('un console loco')
+
 // Connect to MongoDB from external file
 connectDB()
 
