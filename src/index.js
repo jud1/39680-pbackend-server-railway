@@ -21,6 +21,8 @@ app.use(express.json())
 
 console.log('un console loco')
 
+console.log('un console loco desde testing')
+
 // Connect to MongoDB from external file
 connectDB()
 
